@@ -9,6 +9,7 @@ import UseEffect from './components/UseEffect'
 import WelcomeComponents from './components/welcomecompontes'
 import StatusMessage from './components/statusmessage'
 import StudentsList from './components/studentslist'
+import UseStateComponent from './components/UseState.jsx'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <WelcomeComponents isLoggedIn={true} />
       <StatusMessage isOnline={true} />
       <StudentsList />
+      <UseStateComponent />
 
     </>
   )
