@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function UseStateComponent() {
     const [count, setCount] = useState(0);
     const [isOn, setisON] = useState(true);
-    const [countDisable, setCountDisable] = UseState(0);
+    const [countDisable, setCountDisable] = useState(0);
     return (
         <div>
             <button onClick={() => setCount(count + 1)} disabled={count >= 10}>

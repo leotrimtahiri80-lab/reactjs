@@ -10,7 +10,9 @@ import WelcomeComponents from './components/welcomecompontes'
 import StatusMessage from './components/statusmessage'
 import StudentsList from './components/studentslist'
 import UseStateComponent from './components/UseState.jsx'
-
+import oneChangeEvent from './components/oneChangeEvent.jsx'
+import TwoStateComponent from './components/TwoStateComponent.jsx'
+import DarkMode from './components/DrakMode.jsx'
 function App() {
 
 
@@ -24,7 +26,9 @@ function App() {
       <StatusMessage isOnline={true} />
       <StudentsList />
       <UseStateComponent />
-
+      <oneChangeEvent />
+      <TwoStateComponent />
+      <DarkMode />
     </>
   )
 }
